@@ -28,9 +28,10 @@ url: https://mrlucky974.github.io # the base hostname & protocol for your site, 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 
 # Build settings
-theme: garth-jekyll-theme
+remote_theme: daviddarnes/garth
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
