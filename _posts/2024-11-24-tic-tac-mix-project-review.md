@@ -56,7 +56,7 @@ Thanks to this playtesting experiment, we now know how to improve the prototype.
 
 To fix the comprehension errors about how to play the minigames, I will also implement a new tutorial scene in between the main gameplay and the minigame one to show a little gameplay video, as well as interactive input prompts to give the players more information and also give them the control onto when to start the minigame.
 
-![](https:/i.imgur.com/zbSAAKP.png)
+![](https://i.imgur.com/zbSAAKP.png)
 
 For some of the more complex minigames, we also have plans to ease the player experience to increase the chance of having a winner (e.g. changing the doors color in **Mystery Doors** once opened, adding a health system in **Thief!**).
 
