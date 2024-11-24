@@ -2,6 +2,7 @@
 layout: post
 title:  "Making an RTS Game - Part 1"
 date:   2022-11-10 11:23:00 +0400
+description: Initial progress on an RTS game made in Unity.
 categories: game update
 ---
 
@@ -9,6 +10,7 @@ categories: game update
 
 Hello, everyone !
 Showing a little bit of my progress so far for a small RTS game I'm making.
+
 ![](https://64.media.tumblr.com/bd9c5be789a23d2455ae106deefb8197/bdc30d533f3037a0-3a/s640x960/be0d2c336d87f25d1c9cdab460f476b726c68121.pnj)
 
 Maps will be randomly generated to encourage replayabilty (everything in this game is still in a very early work in progress state, nothing is final).

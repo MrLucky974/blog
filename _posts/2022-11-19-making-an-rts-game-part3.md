@@ -2,6 +2,7 @@
 layout: post
 title:  "Making an RTS Game - Part 3"
 date:   2022-11-19 18:22:00 +0400
+description: Procedural generation updates, A* pathfinding, unit formations and path smoothing.
 categories: game update
 ---
 

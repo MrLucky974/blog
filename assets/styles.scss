@@ -4,6 +4,10 @@ title: false
 
 @import "garth";
 
+.description {
+    font-size: 0.9rem;  /* Adjust as needed */
+}
+
 /* Container for social links */
 .social-links {
     text-align: center;
@@ -37,4 +41,18 @@ title: false
 .social-media-list a:hover {
     color: $hoverColour; /* Darker shade on hover */
 }
-  
+
+.typeset p {
+    margin-bottom: 0.8rem;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+}
+
+article iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ensures the iframe is responsive */
+}

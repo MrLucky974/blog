@@ -2,6 +2,7 @@
 layout: post
 title:  "Making an RTS Game - Part 2"
 date:   2022-11-12 21:58:00 +0400
+description: Minimal update on world generation, cursor animations and code refactoring.
 categories: game update
 ---
 
@@ -38,9 +39,7 @@ For the moment, it has no effect on the gameplay (obviously, nothing is implemen
 I still need to add the possibility to remove the hat and the hair, as well as to manage some edge cases like the fact that the knight's head model is directly provided with hair unlike the other heads.
 
 # 4. World Generation Overhaul
-The biggest thing I did (while writing this devlog post) is overhauling the terrain generation. For that, I followed IndividualKex's "how to make a procedural grid world in under 2 minutes in unity" series.
-
-(Side note, he's a very fun guy, check out his channel)
+The biggest thing I did (while writing this devlog post) is overhauling the terrain generation. For that, I followed IndividualKex's "How to make a procedural grid world in under 2 minutes in unity" series. (Side note, he's a very fun guy, check out his channel)
 
 The generation work, I had a little trouble with the generation of the edges of the island for a moment but that's fixed now. The system also generates trees and I also plan to generate the rest of the resources afterwards, of course. 
 
