@@ -1,0 +1,16 @@
+<footer class="footer">
+    <div class="container">
+        <div class="copyright  typeset">
+            <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small>
+        </div>
+        <div class="social-links">
+            <ul class="social-media-list">
+                {%- for entry in site.social_links -%}
+                    <li>
+                        <a href="{{ entry.user_url }}" target="_blank">{{ entry.platform }}</a>
+                    </li>
+                {%- endfor -%}
+            </ul>
+        </div>
+    </div>
+</footer>

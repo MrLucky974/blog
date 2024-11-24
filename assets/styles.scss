@@ -1,0 +1,40 @@
+---
+title: false
+---
+
+@import "garth";
+
+/* Container for social links */
+.social-links {
+    text-align: center;
+    margin: 0;
+}
+
+/* Social media list styling */
+.social-media-list {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Spacing between items */
+}
+
+/* Social media list items */
+.social-media-list li {
+    display: inline-block;
+}
+
+/* Social media links */
+.social-media-list a {
+    font-size: 15px;
+    font-family: unquote(map-get($headingtype, font-family));
+    color: $linkColour; /* Link color */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect */
+.social-media-list a:hover {
+    color: $hoverColour; /* Darker shade on hover */
+}
+  
